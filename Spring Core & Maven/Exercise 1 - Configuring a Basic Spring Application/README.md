@@ -1,37 +1,34 @@
 # Exercise 1 - Configuring a Basic Spring Application
 
 ## Objective
-Learn how to configure a basic Spring application using XML configuration.
+Configure a basic Spring application using the Spring IoC Container and XML-based bean configuration.
 
-## Concepts Covered
+## Technologies
+- Java 21
 - Spring Framework
-- IoC (Inversion of Control)
+- Maven
+- IntelliJ IDEA
+
+## Concepts Demonstrated
+- Inversion of Control (IoC)
 - Dependency Injection (DI)
-- Spring Bean
+- Spring Beans
 - ApplicationContext
 - XML Configuration
-- Maven
 
-## Files
-- BookRepository.java
-- BookService.java
+## Project Structure
+- BookRepository
+- BookService
 - applicationContext.xml
-- Main.java
-- pom.xml
+- Main
 
-## Key Interview Points
-- What is Spring?
-- What is IoC?
-- What is Dependency Injection?
-- Difference between BeanFactory and ApplicationContext
-- What is a Spring Bean?
-- Why use Maven?
+## Result
+Successfully loaded Spring beans using `ApplicationContext` and executed the application.
 
-## Output
-```
-Book Repository
-Book Service
-```
+## Learning Outcome
+- Understood Spring IoC and Bean configuration.
+- Learned how to configure and retrieve beans from the Spring container.
+- Built a basic Spring application using Maven.
 
 ## Status
 ✅ Completed
